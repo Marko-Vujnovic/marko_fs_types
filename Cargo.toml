@@ -1,0 +1,12 @@
+[package]
+name = "marko_fs_types"
+version = "0.1.0"
+authors = ["Marko Vujnovic"]
+edition = "2018"
+description="FS data types: File, Folder, etc"
+license="GPLv3"
+repository="https://github.com/Marko-Vujnovic/marko_fs_types"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
